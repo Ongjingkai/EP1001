@@ -1,0 +1,237 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ᵔᴥᵔ</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">ReCap</a>
+          <div class="dropdown-content">
+            <a class="active" href="arduino.html">Arduino</a>
+            <a href="designprocess.html">Design Process</a>
+          </div>
+        </li>
+          <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Documation</a>
+            <div class="dropdown-content">
+              <a href="../fyp/chronology.html">Chronology</a>
+            <a href="../fyp/composite.html">Composite</a>
+            <a href="../fyp/riveting.html">Riveting</a>
+            <a href="../fyp/embedded.html">Embedded Printing</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Miniproject</a>
+            <div class="dropdown-content">
+              <a href="../fypminiproject/compositemarkout.html">Composite Mark-out</a>
+              <a href="../fypminiproject/rivercover.html">Rivet Cover</a>
+            </div>
+          </li>
+    </ul>
+  </nav>
+</div>
+
+
+<!--content-->
+<a name="top"></a>
+    <div id="header">
+      <h1>Arduino</h1>
+    </div>
+    <div id="container">
+
+      <div id="content">
+
+
+        <h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
+      </div>
+      <div id="content">
+
+      <!--sub navbar for the page to make it easier for me to look at any feature I made-->
+          <div id="dnav">
+            <ul>
+                <li><a href="#arduinobasics">Arduino Basics</a></li>
+                <li><a href="#arduinoused">Arduino used</a></li>
+                <li><a href="#Softwaretotest">Software to test</a></li>
+                <li><a href="#Softwaretouse">Software to use</a></li>
+                <li><a href="#examples">Examples</a></li>
+              </ul>
+          </div>
+<!--End-->
+
+<!--arduino basics-->
+<h2 id="arduinobasics" align="center">What is an arduino</h2>
+<div id="box">
+
+
+    <img id="vertImg" src="../images/arduino/arduinologo.jpg"><br>
+    <h4 >Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. You can tell your board what to do by sending a set of instructions to the microcontroller on the board. To do so you use the Arduino programming language (based on Wiring), and the Arduino Software (IDE), based on Processing.<br> To know more about arduino, click <a href="https://www.youtube.com/watch?v=nL34zDTPkcs"> here!</a></h4>
+
+</div>
+<!--end-->
+
+<!--arduino basics-->
+<h2 id="arduinoused" align="center">Arduino Used</h2>
+<div id="box">
+<table align="center">
+  <tr>
+    <th><img id="horiImg" src="../images/arduino/arduinouno.png"></th>
+    <th><img id="horiImg" src="../images/arduino/arduinoneno.png"><br></th>
+  </tr>
+</table>
+<h4>The code used for uno can be used in neno. The only difference is the size of the arduino. Both arduinos can take in 12v(Use VIN). Neno supports being supplied by a 9v battery. <br><br>
+Let me just save your time by giving you the link to both arduino. Trust me and buy all your electronics online<font style="color:red">(apply for singapore)</font>.<br>
+
+<a href="https://shopee.sg/(Local-Stock)-UNO-R3-board-is-a-microcontroller-board-based-on-ATmega328-USB-cable-r3-iot-i.223700280.9390988484?sp_atk=2538d95d-7cb8-4329-9b1e-dbb82726de14">Arduino Uno</a> Cost:SGD $20<br>
+<a href="https://shopee.sg/Mini-Type-C-Micro-USB-Nano-3.0-With-the-bootloader-compatible-Nano-controller-for-arduino-Ch440-USB-driver-16Mhz-ATMEGA328P-ATMEGA168P-i.562720324.11360137747?sp_atk=f26e1a8c-4427-4fc8-9ce5-c330dd69fe84">Arduino Neno</a> Cost:SGD $7.00 <font style="color:darkblue">(get 328p-mini USB welding if you don't have a heatgun and solderpaste)</font>
+</h4>
+</div>
+<!--end-->
+
+<!--Software to test -->
+<h2 id="Softwaretotest" align="center">Software to test</h2>
+<div id="box">
+  <table align="center">
+    <tr>
+      <th>
+<img id="hori1Img" src="../images/arduino/tinkercadlogo.png">
+</th>
+</tr>
+</table>
+  <h4 align="center">I Use tinkercad to test basic circuits, it's a great way to save your wallet by not frying your arduino or electrical component. This software does not really contain any advance electronics tho. Click <a href="https://www.tinkercad.com/">here</a> to visit the site! </h4>
+</div>
+<!--end-->
+
+<!--Software to Use -->
+<h2 id="Softwaretouse" align="center">Software to use</h2>
+<div id="box">
+  <table align="center">
+    <tr>
+      <th>
+    <img id="horiImg" src="../images/arduino/arduinologo.jpg">
+  </th>
+  </tr>
+  </table>
+<h4 align="center">I use Arduino IDE to transfer my code into the arduino. Click <a href="https://www.arduino.cc/en/software">here</a> to download the software from the site!</h4>
+</div>
+<!--end-->
+
+<!--Examples-->
+<h2 id="examples" align="center">The things below are examples you can use for your projects</h2>
+<!--1 switch many mode-->
+<h2 align="center">Single switch 4 outcomes</h2>
+<div id="box">
+  <h4 align="center">This is here to show how you can use 1 switch for different settings<br>
+<iframe id="tinker" width="725" height="453" src="https://www.tinkercad.com/embed/1uou2CQveDq?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="this"></iframe></h4>
+<h4 align="center">Click <a href="https://www.tinkercad.com/things/1uou2CQveDq">here</a> to <strike>copy</strike> see my circuit. (ಠ‿↼)</h4>
+<div id="boxc">
+<h4 align="center">I program the Arduino to have 5(including switching everything off) modes in total</h4>
+<h4><ol>
+<li>All LED off</li>
+<li>Red LED on, everything else off</li>
+<li>Green LED on, everything else off</li>
+<li>Yellow LED on, everything else off</li>
+<li>All Led till turn on in sequence before switching off</li>
+</ol> </h4>
+</div>
+</div>
+<!--end-->
+
+<!--remote-->
+<h2 align="center">IR Remote</h2>
+<div id="box">
+  <h4 align="center">This is here to show how an IR remote works in case you want to use it for your project
+<iframe id="tinker" width="725" height="453" src="https://www.tinkercad.com/embed/4bOXdmqbcBF?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="tc"></iframe></h4>
+<h4 align="center">Click <a href="https://www.tinkercad.com/things/4bOXdmqbcBF">here</a> to <strike>copy</strike> see my circuit. (ಠ‿↼)</h4>
+<div id="boxc">
+<h4 align="center">Pressing certain numbers would show certain effects</h4>
+<h4><ol>
+<li>Toggle Red Led on and off</li>
+<li>Light up Greed led and off</li>
+<li>Toggle Blue Led on and off</li>
+<li>Light show ( ͡◉ ͜ʖ ͡◉) (Start the Simulation to see!)</li>
+</ol> </h4>
+</div>
+</div>
+<!--end-->
+
+<!--UltraSonic Sensor-->
+<h2 align="center">UltraSonic Sensor</h2>
+<div id="box">
+  <h4 align="center">This is here to show how an Ultrasonic Sensor works in case you want to use it for your project
+<iframe id="tinker" width="725" height="453" src="https://www.tinkercad.com/embed/ibFNAUVoFZz?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="tc"></iframe></h4>
+<h4 align="center">Click <a href="https://www.tinkercad.com/things/ibFNAUVoFZz">here</a> to <strike>copy</strike> see my circuit. (ಠ‿↼)</h4>
+<div id="boxc">
+  <h4 align="center">Going in range would trigger certain reactions!</h4>
+  <h4><ul>
+  <li>Going below 100 would light up the red LED</li>
+  <li>Going above 80 would light up the green LED</li>
+</ul> </h4>
+</div>
+</div>
+<!--end-->
+
+<!--Led Strips-->
+<h2 align="center">LED Strips</h2>
+<div id="box">
+  <h4 align="center">This is here to show how an LedStrips works in case you want to use it for your project
+<iframe id="tinker" width="725" height="453" src="https://www.tinkercad.com/embed/7i6edKshXuY?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="tc"></iframe></h4>
+<h4 align="center">Click <a href="https://www.tinkercad.com/things/7i6edKshXuY">here</a> to <strike>copy</strike> see my circuit. (ಠ‿↼)</h4>
+<div id="boxc">
+  <h4 align="center">This only give you a short lightshow</h4>
+</div>
+</div>
+<!--end-->
+
+<!--External Power-->
+<h2 align="center">External Power</h2>
+<div id="box">
+  <h4 align="center">This is here to show how to use external power while controlling using arduino
+<iframe id="tinker" width="725" height="453" src="https://www.tinkercad.com/embed/jh8Ru58Zejc?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" id="tc"></iframe></h4>
+<h4 align="center">Click <a href="https://www.tinkercad.com/things/jh8Ru58Zejc">here</a> to <strike>copy</strike> see my circuit. (ಠ‿↼)</h4>
+<div id="boxc">
+  <h4 align="center">This is what I used for my school project.<br> 1 to turn the bottom layer on<br> 2 to light up top layer for a secound</h4>
+</div>
+</div>
+<!--end-->
+
+
+
+</div>
+</div>
+
+
+      </div>
+    </div>
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+    </html>

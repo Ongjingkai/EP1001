@@ -1,0 +1,342 @@
+html {height: 100%;}
+
+body {
+margin: 0;
+height: 100%;
+background-image: url("images/background/21093.jpg");
+font-family: sans-serif;
+font-size: 1.2vw;
+background-size: 400% 400%;
+background-attachment: fixed;
+}
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+#navigation {
+
+}
+
+/*NavBar*/
+nav ul {
+list-style-type: none;
+overflow: hidden;
+background-color: #222;
+margin: 0;
+padding: 0;
+}
+
+nav li {
+float: left;
+}
+
+nav li a, .dropbtn {
+display: inline-block;
+padding: 8px 20px;
+color: #ADD8E6;
+text-align: center;
+text-decoration: none;
+}
+
+nav .active {
+background-color: #3ABBFF;
+color: #FFF;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+background-color: #333;
+color: #FFF;
+}
+
+li .dropdown {
+display: inline-block;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  color: #333;
+  min-width: 160px;
+  box-shadow: 0px 5px 5px 0px #222;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 8px 20px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*NavBar end*/
+
+#header {
+  background-color: #444;
+  color: #FFF;
+  padding: 5px;
+  text-align: bottom;
+}
+
+#btt {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+border: none;
+outline: none;
+background-color: red;
+color: white;
+cursor: pointer;
+padding: 15px;
+border-radius: 10px;
+font-size: 18px;
+}
+
+#btt:hover {
+  background-color: #555;
+}
+
+
+#container {
+  width: 80%;
+  min-height: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #333;
+  color: #FFF;
+}
+
+#box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #555;
+}
+
+#boxc {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #111;
+}
+
+a {
+  color: #84FFFF;
+}
+
+#headerTable td {
+  width: 100%;
+  padding-right: 20px;
+}
+
+#infoTable tr td {
+  vertical-align: bottom;
+}
+
+img, iframe {
+  border-radius: 10px;
+}
+
+#profile {
+  width: 200px;
+  height: auto;
+}
+
+#machine {
+  width: 400px;
+  height: auto;
+}
+
+#pInfo {
+  padding-left: 20px;
+}
+
+#imgTable {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#imgTable tr td img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#vertImg {
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#horiImg {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#horiImg1 {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#vertiImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#horiVid {
+  width: 1000px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+#model {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tinker {
+  width: 90%;
+  height: 550px;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#dnav{
+padding: 5px;
+background-color: #918E85;
+border-radius: 5px;
+font-weight: bold;
+font-size: 70%;
+display: block;
+}
+
+#dnav li {
+display: block;
+border: 2px solid black;
+width: 100%;
+display: inline;
+padding: 0.8% 1% 0.8% 1%;
+font-weight: bold;
+}
+
+#dnav table {
+width:100%;
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+h1 {
+margin-left: auto;
+margin-right: auto;
+width: 10em
+
+}
+
+h2 {
+  margin: 20px 0px 0px 0px;
+}
+
+#schedule, #tools, #make, #bom, #settings {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+ #schedule th, #tools th, #bom th {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #7C00FF;
+}
+
+#schedule td, #tools td, #make td, #bom td, #settings td {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #555;
+}
+
+#miniproject, #tools, #make, #bom, #settings {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+ #miniproject th, #tools th, #bom th {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #a33101;
+}
+
+#miniproject td, #tools td, #make td, #bom td, #settings td {
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #268EE4;
+}
+
+#c1 {
+  width: 30%;
+}
+
+#bomc1, #bomc2 {
+  width: 10%;
+}
+
+#bomc4 {
+  width: 20%;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:#222;
+  color:white;
+  text-align: right;
+  font-size: 50%;
+}

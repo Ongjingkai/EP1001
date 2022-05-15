@@ -1,0 +1,89 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>(=ↀωↀ=)</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a class="active" href="index.html">Main</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">ReCap</a>
+          <div class="dropdown-content">
+            <a href="relearn/arduino.html">Arduino</a>
+            <a href="relearn/designprocess.html">Design Process</a>
+          </div>
+          </li>
+          <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Documation</a>
+            <div class="dropdown-content">
+              <a href="fyp/chronology.html">Chronology</a>
+            <a href="fyp/composite.html">Composite</a>
+            <a href="fyp/riveting.html">Riveting</a>
+            <a href="fyp/embedded.html">Embedded Printing</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Miniproject</a>
+            <div class="dropdown-content">
+              <a href="fypminiproject/compositemarkout.html">Composite Mark-out</a>
+              <a href="fypminiproject/rivercover.html">Rivet Cover</a>
+            </div>
+          </li>
+    </ul>
+  </nav>
+</div>
+
+<!--content-->
+
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>EP1001 Module</h1>
+            </td>
+            <td>
+              <img src="images/logo/logo.png" style="width:60px;height:120px">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="container">
+      <div>
+        <h2>Site Welcome</h2>
+      </div>
+      <div id="content">
+        <h3>Hello! Welcome to my site!<br>
+        This is my documation site for EP1001. I started this site so my life would be easier once I am in the module.</h3>
+      </div>
+    </div>
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+</html>
