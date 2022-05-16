@@ -1,0 +1,114 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ᵔᴥᵔ</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <!--Navigation tab below-->
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="../index.html">Main</a></li>
+          <li><a href="../aboutme.html">About Me</a></li>
+          <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Recap</a>
+              <div class="dropdown-content">
+                <a href="arduino.html">Arduino</a>
+                <a href="designprocess.html">Design Process</a>
+                <a class="active" href="fablabsafety.html">FabLab Safety</a>
+              </div>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+<!--content-->
+    <a name="top"></a>
+        <div id="header">
+          <h1>FabLab Safety</h1>
+        </div>
+        <div id="container">
+          <div id="content">
+
+
+<!--important notes-->
+            <h2 align="center">Important note!</h2>
+            <br>
+            <div id="box">
+            <h4>
+            Fab Lab Safety Instruction and Certification Program is a compulsory for SP students to be trained and safety certified before allowing to access and work workshops, Fab Lab or labs/studio with fabricating facilities.
+              </h4>
+            </div>
+            <!--End-->
+
+<!--Emergency-->
+                    <h2 align="center">Emergency!</h2>
+                          <div id="box">
+                          <table align="center">
+                            <tr>
+                              <td><img src="../images/fablabsafety/danger.jpg" alt="danger" width="355.33wh" height="355.33vh"></td>
+                              <td><h4>In the event of emergency, assistance may be summoned:<br>
+                                <ul>
+                                  <li>For Ambulance call 995</li>
+                                  <li>For SCDF call 995</li>
+                                  <li>For Police call 999</li>
+                                  <li>For all emergencies and incident reporting call SP Emergency hotline 6772-1234</li>
+                                </ul>
+                              </h4></td>
+                            </tr>
+                          </table>
+                          <h4 align="center">When making an emergency call, provide essential information such as:<br>
+                          <ul>
+                            <li>Name of caller</li>
+                            <li>Location (block and room number)</li>
+                            <li>Nature of emergency e.g. fire, explosion, violent or abusive behaviour, etc.</li>
+                          </ul>
+                        </h4>
+                              </div>
+                              <!--End-->
+
+                              <!--what how results-->
+                                                  <h2 align="center">PPE and Hazard Symbols</h2>
+                                                        <div id="box">
+                                                        <table align="center">
+                                                          <tr>
+                                                            <td><img id="horiImg"src="../images/fablabsafety/ppe.png"></td>
+                                                            <td><img id="horiImg" src="../images/fablabsafety/hazard.png"></td>
+                                                          </tr>
+                                                        </table>
+                                                        <h4 align="center"> Always follow the Madatory Signs & wear the appropriate PPEs and be aware of all hazard symbols</h4>
+                                                            </div>
+                                                            <!--End-->
+
+</div>
+
+
+      </div>
+    </div>
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+    </html>
