@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>˓˓(¦:ɝ[▓▓]</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li><a href="../contract.html">Contract</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">Skill Set</a>
+          <div class="dropdown-content">
+            <a href="../relearn/arduino.html">Arduino</a>
+            <a href="../relearn/designprocess.html">Design Process</a>
+          </div>
+          </li>
+<!--          <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Documation</a>
+            <div class="dropdown-content">
+              <a href="chronology.html">Chronology</a>
+            <a href="composite.html">Composite</a>
+            <a class="active" href="riveting.html">Riveting</a>
+            <a href="embedded.html">Embedded Printing</a>
+            </div>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">FYP Miniproject</a>
+              <div class="dropdown-content">
+                <a href="../fypminiproject/compositemarkout.html">Composite Mark-out</a>
+                <a href="../fypminiproject/rivercover.html">Rivet Cover</a>
+              </div>
+            </li>-->
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">EP1001</a>
+              <div class="dropdown-content">
+                <a href="electronicproduction.html">Electronic Production</a>
+                <a href="electronicdesign.html">Electronic Design</a>
+                <a href="machining.html">2D Computer Controlled Machining</a>
+                <a class="active" href="moldingandcasting.html">Molding & Casting</a>
+              </div>
+            </li>
+          </li>
+          <li><a href="../contactme.html">Contact me!</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--content-->
+
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>Molding & Casting</h1>
+            </td>
+            <td>
+              <img src="../images/logo/logo.png" style="width:60px;height:120px">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="container">
+      <div id="content">
+<h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
+
+        <!--sub navbar for the page to make it easier for me to look at any feature I made-->
+        <div id="navbar">
+        <a href="#wut" >What is Molding and Casting</a>
+        <a href="#pmm">Preparing My mold</a>
+        <a href="#fin">Finished product</a>
+        <a href="#dpl">Downloading Post-Library</a>
+        <a href="#gncc">Generating Tool Path</a>
+        <a href="#gnccc">Generating G-code</a>
+        <a href="#cfe">Simulating</a>
+        <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
+        </div>
+  <!--End-->
+
+  <!--What is composite-->
+  <h2 id="wut" align="center">What is molding and casting</h2>
+  <div id="box">
+      <iframe id="youVid" src="https://www.youtube.com/embed/RooDSCfF5_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4 align="center">You would have to design a mold and cut it out of blue form. You can cast your mold using any any viscous liquid that would harden to form the final product. Watch the video above to see an example of how it's done.</h4>
+  </div>
+  <!--end-->
+
+<!--Steps-->
+<h2 id="pmm" align="center">Preparing My mold</h2>
+<div id="box">
+  <h4 align="center">Step 1</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/modelprep.PNG"><br></th>
+</tr>
+  </table>
+<h4 align="center">Prepare a model of the item you would like to cast. I am not about to teach you how I created mine so just <a href="../downloadfiles/moldingandcasting/CatHead Mold.f3d" download>download</a> if you like it. Take note that you would be using a 2D CNC to machine your model out, so remember to not have any undercut.</h4>
+
+<!--Step 2-->
+<div id="boxc">
+  <h4 align="center">Step 2</h4>
+  <table>
+  <tr>
+  <th><img id="horiImg" src="../images/moldingandcasting/encasethemodel.PNG"><br></th>
+  <th><img id="horiImg" src="../images/moldingandcasting/createnewbodies.PNG"><br></th>
+  </tr>
+    </table>
+    <h4 align="center">Encase your model in a box. Ensure that the box is a new body and that the model is fully encased.</h4>
+
+</div>
+
+<!--Step 3-->
+<h4 align="center" id="step3">Step 3</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/beheading.PNG"><br></th>
+<th><img id="horiImg" src="../images/moldingandcasting/beheaded.PNG"><br></th>
+</tr>
+  </table>
+  <h4 align="center">Using the combine tool, select the box as the target and the model you want to cast as tool body. It should look like the right photo.</h4>
+
+  <!--Step 4-->
+  <div id="boxc">
+    <h4 align="center">Step 4</h4>
+    <table>
+    <tr>
+    <th><img id="horiImg" src="../images/moldingandcasting/encaseboxinbox.PNG"><br></th>
+    </tr>
+      </table>
+      <h4 align="center">Now encase your box with model cut-out into a bigger box. It is important you name your bodies to ensure you do not get confused.</h4>
+    </div>
+
+
+<!--Step 5-->
+<h4 align="center">Step 5</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/cutdatboxout.PNG"><br></th>
+<th><img id="horiImg" src="../images/moldingandcasting/finished molding process.PNG"><br></th>
+</tr>
+  </table>
+  <h4 align="center">Repeat what you did for <a href="#step3">step 3</a>. This part would be CNC out to help make a silicon mold, you would understand more at the bottom.</h4>
+</div>
+
+<!--Finished Product-->
+  <div id="boxc">
+    <h4 id="fin" align="center">Finished Product</h4>
+    <iframe id="model" src="https://ichat1898.autodesk360.com/shares/public/SH35dfcQT936092f0e43828d8297ef34e966?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+</div>
+</div>
+
+<!--Downloading Post-library-->
+<h2 id="dpl" align="center">Downloading Post-library</h2>
+<div id="box">
+  <br>
+  <table>
+  <tr>
+  <th><img id="horiImg" src="../images/moldingandcasting/PostLibrary.png"></th>
+  </tr>
+    </table>
+<h4 align="center">Click <a href="https://cam.autodesk.com/hsmposts">here</a> to download stepcraft's process that would be used later.<br>
+   Scroll down and search for "stepcraft" and download the first uccnc, remember to put the file in an area easily accessible.</h4>
+</div>
+
+<!--generating Tool Path-->
+<h2 id="gncc" align="center">Generating Tool Path</h2>
+<div id="box">
+  <div id="boxc">
+  <h4 align="center">Step 1</h4>
+  <table>
+  <tr>
+  <th><img id="horiImg" src="../images/moldingandcasting/manufacturing.png"></th>
+  </tr>
+    </table>
+<h4 align="center">Firstly, switch to manufacturing in fusion.</h4>
+</div>
+<!--step 2-->
+<h4 align="center">Step 2</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/newsetup.png"></th>
+</tr>
+  </table>
+<h4 align="center">Now create a new setup.</h4>
+<!--step 3-->
+<div id="boxc">
+<h4 align="center">Step 3</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/adaptive.png"></th>
+</tr>
+  </table>
+<h4 align="center">Now select adaptive clearing</h4>
+</div>
+<!--step 4-->
+<h4 align="center">Step 4</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/tooledit.png"></th>
+</tr>
+  </table>
+<h4 align="center">Rightclick your "adaptive" and click tool edit and enter the values in.</h4>
+
+<!--step 5-->
+<div id="boxc">
+<h4 align="center">Step 5</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/selectingtools.png"></th>
+<th><img id="horiImg" src="../images/moldingandcasting/settings.PNG"></th>
+</tr>
+  </table>
+<h4 align="center">Selecting your tool first would make setting later easier. open the right photo and change the settings in the red circle.
+  <br>To save you time, the rest of the settings are the same.</h4>
+</div>
+<!--Tool path generated-->
+<h4 align="center">Tool path generated</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/finishedtoolpath.png"></th>
+</tr>
+  </table>
+<h4 align="center">After you are done, you should see the tool path. We would be generating our ".nc" from this tool path.</h4>
+</div>
+
+<!--generating Tool Path-->
+<h2 id="gnccc" align="center">Generating G-code</h2>
+<div id="box">
+  <div id="boxc">
+  <h4 align="center">Step 1</h4>
+  <table>
+  <tr>
+  <th><img id="horiImg" src="../images/moldingandcasting/ncprogram.png"></th>
+  </tr>
+    </table>
+  <h4 align="center">Start by selecting NC program under setup.</h4>
+</div>
+<!--step 2-->
+<h4 align="center">Step 2</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/selectinglibrary.png"></th>
+</tr>
+  </table>
+<h4 align="center">Now click the icon I highlighted.</h4>
+<!--step 3-->
+<div id="boxc">
+<h4 align="center">Step 3</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/importing1-3.png"></th>
+<th><img id="horiImg" src="../images/moldingandcasting/importing2-3.png"></th>
+<th><img id="horiImg" src="../images/moldingandcasting/importing3-3.png"></th>
+</tr>
+  </table>
+<h4 align="center">Remember the earlier <a href="#dpl">file I told you download</a>? Well, now you need to select that.<br>
+After you are done, click select.</h4>
+</div>
+<!--step 4-->
+<h4 align="center">Step 4</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/importingdone.png"></th>
+</tr>
+  </table>
+<h4 align="center">Change your unit to "Document unit" to reduce the number of <strike>bullshit</strike> issues you have to face later.</h4>
+<!--step 5-->
+<div id="boxc">
+<h4 align="center">Step 5</h4>
+<table>
+<tr>
+<th><img id="horiImg" src="../images/moldingandcasting/genaratingcode.png"></th>
+<th><img id="horiImg" src="../images/moldingandcasting/generated.png"></th>
+</tr>
+  </table>
+<h4 align="center">Right click and select post process from your NC program to generate your G-codes.<br>
+Click <a href="../downloadfiles/moldingandcasting/1001.zip" download>here</a> to download my NC code.</h4>
+</div>
+</div>
+<!--Checking for errors-->
+
+<h2 id="cfe" align="center">Simulating</h2>
+<div id="box">
+  <table>
+  <tr>
+  <th><img id="horiImg" src="../images/moldingandcasting/simulate.png"></th>
+  <th><img id="vertImg1" src="../images/moldingandcasting/simulate.gif"></th>
+  </tr>
+    </table>
+  <h4 align="center">If you want to see how your tool would go, just click on simulate.</h4>
+  </div>
+  </div>
+
+
+
+</div>
+<!--End-->
+
+</div>
+<!--For Ze sticky Navbar-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+</script>
+<!--End-->
+
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>(´ω｀*)</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li><a href="../contract.html">Contract</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">Skill Set</a>
+          <div class="dropdown-content">
+            <a href="../relearn/arduino.html">Arduino</a>
+            <a href="../relearn/designprocess.html">Design Process</a>
+
+          </div>
+          </li>
+<!--              <li class="dropdown">
+            <a href:"javascript:void(0)" class="dropbtn">FYP Documation</a>
+            <div class="dropdown-content">
+              <a href="chronology.html">Chronology</a>
+            <a href="composite.html">Composite</a>
+            <a class="active" href="riveting.html">Riveting</a>
+            <a href="embedded.html">Embedded Printing</a>
+            </div>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">FYP Miniproject</a>
+              <div class="dropdown-content">
+                <a href="../fypminiproject/compositemarkout.html">Composite Mark-out</a>
+                <a href="../fypminiproject/rivercover.html">Rivet Cover</a>
+              </div>
+            </li>-->
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">EP1001</a>
+              <div class="dropdown-content">
+                <a href="electronicproduction.html">Electronic Production</a>
+                <a class="active" href="electronicdesign.html">Electronic Design</a>
+                <a href="machining.html">2D Computer Controlled Machining</a>
+                <a href="moldingandcasting.html">Molding & Casting</a>
+              </div>
+            </li>
+          </li>
+          <li><a href="../contactme.html">Contact me!</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--content-->
+
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>Electronic Design</h1>
+            </td>
+            <td>
+              <img src="../images/logo/logo.png" style="width:60px;height:120px">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="container">
+      <div id="content">
+<h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
+        <!--sub navbar for the page to make it easier for me to look at any feature I made-->
+        <div id="navbar">
+        <a href="#wut" >What is Electronic design</a>
+        <a href="#pmm">Setting up eagle</a>
+        <a href="#build">Building your ISP</a>
+        <a href="#completed">Completed schematic diagram</a>
+        <a href="#pcbdesign">Completed PCB design</a>
+        <a href="#export">Exporting</a>
+        <a href="#soldering">Soldering your PCB</a>
+
+        <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
+        </div>
+            <!--End-->
+
+  <!--What is Electronic design-->
+  <h2 id="wut" align="center">What is Electronic design</h2>
+  <div id="box">
+    <iframe id="youVid" width="560" height="315" src="https://www.youtube.com/embed/35YuILUlfGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4 align="center">This page would show how you can design and produce your own PCB using CNC and soldering.<br> The video above shows you how he designed his PCB from start to finished.<br>For my example, I would be making a ATTiny45/85, let's start by downloading <a href="https://www.autodesk.com/products/eagle/free-download">eagle</a>. </h4>
+  </div>
+  <!--end-->
+
+<!--Setting up eagle-->
+<h2 id="pmm" align="center">Setting up eagle</h2>
+<div id="box">
+  <h4 align="center">Step 1</h4>
+<img id="horiImg" src="../images/electronicdesign/downloaddeeznutz.PNG">
+<h4 align="center">In case you did not read what is written above. Please download <a href="https://www.autodesk.com/products/eagle/free-download">eagle</a> first.</h4>
+
+<!--Step 2-->
+<div id="boxc">
+  <h4 align="center">Step 2</h4>
+<img id="horiImg" src="../images/electronicdesign/Library location.PNG"><br>
+    <h4 align="center">Download <a href="../downloadfiles/electronic design/this.zip" download>this</a> files and place it into the eagle's library. follow the photo if you can't find your eagle library.</h4>
+</div>
+
+<!--Step 3-->
+<div id="boxc">
+  <h4 align="center">Step 3</h4>
+<img id="horiImg" src="../images/electronicdesign/Click the green circle.PNG"><br>
+    <h4 align="center">Start your Eagle software and click the circled area to make it active. It should be green before you start your project.<br> You should be prepared to start making your first ISP board now.</h4>
+</div>
+</div>
+<!--end-->
+
+<!--Making your schematic-->
+<h2 id="build" align="center">Building your ISP</h2>
+<div id="box">
+    <h4 align="center">Getting the basics down</h4>
+  <table align="center">
+  <tr>
+  <th><img id="horiImg" src="../images/electronicdesign/Adding Wireline.png"><br></th>
+  <th><img id="horiImg" src="../images/electronicdesign/AddingPart.png"><br></th>
+  </tr>
+    </table>
+    <h4 align="center">To add in "wires", use the "net" fuction to connect component together.<br>To add in component, use the "add part" function.</h4>
+    <img id="horiImg1" src="../images/electronicdesign/Adding Label.png">
+<h4 align="center">It is important to label your "wires"! It would be used for placement of component afterwards.</h4>
+<img id="horiImg1" src="../images/electronicdesign/Mostly Under Fab.png">
+<h4 align="center">Most of the component used in the project is under the folder "fab". This is important to save you time.</h4>
+<table align="center">
+<tr>
+<th><img id="horiImg" src="../images/electronicdesign/symbol meaning.PNG"><br></th>
+<th><img id="horiImg" src="../images/electronicdesign/resistor.PNG"><br></th>
+</tr>
+  </table>
+<h4 align="center">In case you <strike>are an idiot</strike> don't know what this symbol means. I would not be labeling it in my drawings.<br>VCC would be the power source, Ground would be well.. the ground? and lastly the resistor.</h4>
+<img id="horiImg1" src="../images/electronicdesign/selecting DMC.png">
+<h4 align="center">Check for errors by clicking "ctrl + c" together.</h4>
+<img id="horiImg1" src="../images/electronicdesign/04_t45_hello-board.png">
+<h4 align="center">I would be using this schematic to design my own ISP.</h4>
+<!--Compoment-->
+<div id="boxc">
+  <h4 align="center">Component used in ATTiny45/85.</h4>
+
+<table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ATtiny85</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>10kΩ resistor</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>499Ω resistor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>FTDI Header</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>6mm Button</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1u capacitor</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>AVR ISP SMD</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>LED</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>VCC</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Ground</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+  <h4 align="center">Building the ISP</h4>
+  <h4 align="center">There are two methods for wiring your circuit board. To begin, manual wiring is used to connect wires from one component to another. When connecting multiple wires, the second method is more efficient and has fewer complications. This is accomplished by naming the wires with the same names that are attached to the respective ends of the component, and Eagle will automatically ask you if you want to connect the two components from the named wires.</h4>
+
+
+
+<div id="boxc">
+  <h4 id="completed" align="center">My Completed schematic diagram</h4>
+<img id="horiImg" src="../images/electronicdesign/Completed.PNG"><br>
+    <h4 align="center">I like my work to be clean and easy to understand(for me at least). Check for errors before continuing<br>Click <a href="../downloadfiles/electronic design/eagle/Cheat_Code.zip" download>here</a> to <strike>copy</strike> cross reference your work.( ͡~ ͜ʖ ͡°)</h4>
+</div>
+<table align="center">
+  <tr>
+<th><img id="horiImg" src="../images/electronicdesign/switchtoboard.png"></th>
+<th><img id="horiImg" src="../images/electronicdesign/create new.PNG"></th>
+</tr>
+</table>
+    <h4 align="center">After completing your schematic, it's time to generate your board.</h4>
+
+    <div id="boxc">
+    <img id="horiImg" src="../images/electronicdesign/firstloadin.png"><br>
+        <h4 align="center">Upon loading in, your component would be at the side.</h4>
+<table align="center" id="pcbdesign">
+    <tr>
+    <th><img id="vertImg1" src="../images/electronicdesign/wirelocation.png"><th>
+    <th><img id="horiImg" src="../images/electronicdesign/pcb design.png"><th>
+    </tr>
+      </table>
+            <h4 align="center">With the help of the yellow lines provided by the software,orginize your board using wires(see left photo). Check for errors before continuing </h4>
+
+            <img id="horiImg1" src="../images/electronicdesign/selecting DMC.png">
+            <h4 align="center">Now we would need to change the settings the wire size and clearence. Start by selecting DRC </h4>
+            <table align="center">
+                <tr>
+                <th><img id="vertImg1" src="../images/electronicdesign/size.png"><th>
+                <th><img id="horiImg" src="../images/electronicdesign/clearence.png"><th>
+                </tr>
+                  </table>
+                  <h4 align="center">Just set the setting to the ones provided above and check for errors if any.</h4>
+            <table align="center">
+                <tr>
+                <th><img id="vertImg1" src="../images/electronicdesign/selecting milling.png"><th>
+                <th><img id="horiImg" src="../images/electronicdesign/Proper outline.png"><th>
+                </tr>
+                  </table>
+                  <h4 align="center">Now switch the layer to 46 milling and add an outline around your PCB.<br>Click <a href="../downloadfiles/electronic design/eagle/Cheat_Code board.zip" download>here</a> to <strike>copy</strike> cross reference your work.( ͡~ ͜ʖ ͡°)</h4>
+    </div>
+    <table align="center">
+        <tr>
+        <th><img id="vertImg1" src="../images/electronicdesign/Layersetting.png"><th>
+        <th><img id="horiImg1" src="../images/electronicdesign/onlytopandmilling.PNG"><th>
+        </tr>
+          </table>
+          <h4 align="center">We would only need to get the "top" and "milling" layer so do the next step individually.</h4>
+
+          <div id="boxc">
+            <h4 id="export" align="center">Exporting</h4>
+            <table align="center">
+                <tr>
+                <th><img id="vertImg1" src="../images/electronicdesign/exportas.png"><th>
+                <th><img id="horiImg" src="../images/electronicdesign/exportsetting.PNG"><th>
+                </tr>
+                  </table>
+              <h4 align="center">You would need to export each layer as PNG. Select export as "image" and ensure "manochrome" is selected and resolution is 1000.</h4>
+              <table align="center">
+                  <tr>
+                  <th><img id="horiImg" src="../images/electronicdesign/Sussy_wires.png"><th>
+                  <th><img id="horiImg" src="../images/electronicdesign/amongus_trace.png"><th>
+                  </tr>
+                    </table>
+                    <h4 align="center">Your photo would look like this so just crop out the needed part or smt lol</h4>
+                    <img id="horiImg" src="../images/electronicdesign/ysohard.gif">
+                    <h4 align="center">You would need to remove the black box in the center of your outline.<br>The tutorial I watched require me to use special software and waste my time smh. Follow my way or look for other solutions on your own just convert the JPG to PNG online. <br>
+                    Click <a href="../downloadfiles/electronic design/deeznutz.zip" download>here</a> to <strike>copy</strike> cross reference your work.( ͡~ ͜ʖ ͡°)</h4>
+          </div>
+          <table align="center">
+              <tr>
+              <th><img id="horiImg" src="../images/electronicdesign/traced.PNG"><th>
+              <th><img id="horiImg" src="../images/electronicdesign/outline.PNG"><th>
+              </tr>
+                </table>
+  <h4 align="center">All you would have to do now is to just <a href="electronicproduction.html">convert them to G-code.</a></h4>
+
+
+
+
+
+
+
+  <!--Soldering-->
+  <div id="boxc">
+  <h2 id="soldering" align="center">Soldering your PCB</h2>
+  <div id="box">
+    <iframe id="youVid" width="560" height="315" src="https://www.youtube-nocookie.com/embed/VxMV6wGS3NY?start=433" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4 align="center">If are <strike>shit</strike> not good at soldering,watch the video above!</h4>
+  </div>
+</div>
+  <!--end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+<!--end-->
+</div>
+<!--For Ze sticky Navbar-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+</script>
+<!--End-->
+
+    <body>
+    <footer>
+      <div id="footer">
+       Copyrights <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color:white;">ඞ</a> Ong Jing Kai.
+      </div>
+    </footer>
+</html>
