@@ -1,2 +1,2 @@
 # EP1001
-Start early to end early
+Just do things before they start to save you the time and effort
