@@ -66,8 +66,12 @@
         <!--Sub Nav Bar that follow u-->
         <div id="navbar">
           <a href="#wut" >What is this page about</a>
-          <a href="#boardmanager" >Installing Boards Manager</a>
-
+          <a href="#boardmanager" >Installing Boards Manager</a> 
+          <a href="#connect" >Connections to board</a> 
+          <a href="#buringboot" >Burning Bootloader</a> 
+          <a href="#Programming" >Programming the board</a> 
+          <a href="#working" >Working Board</a> 
+          <a href="#issuesmuchsmh" >Issue faced</a> 
           <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
           </div>
   <!--End-->
@@ -75,11 +79,11 @@
   <!--What is this page about-->
   <h2 id="wut" align="center">What is this page about</h2>
   <div id="box">
-      <h4 align="center">This is to teach you how to program your board!</h4>
+      <h4 align="center">This is to teach you how to program and test your ATtiny412 board from <a href="electronicdesign.html"> "Electronic Design"</a>.</h4>
   </div>
   <!--end-->
 
-  <!--What is this page about-->
+  <!--Installing Boards Manager-->
   <h2 id="boardmanager" align="center">Installing Boards Manager</h2>
   <div id="box">
     <img id="horiImg1" src="../images/embeddedprogramming/link.png">
@@ -97,7 +101,63 @@
   </div>
   <!--end-->
 
+   <!--Connecting the board-->
+   <h2 id="connect" align="center">Connections to board</h2>
+   <div id="box">
+      <img id="horiImg1" src="../images/embeddedprogramming/impotantinfo.png">
+      <h4 align="center">Read up on the chip you are using and learn how to program it<br>(The photo above provides a clearer view of the chip than the one on their <a href="http://academy.cba.mit.edu/classes/embedded_programming/t412/40001911A.pdf">website</a>)</h4>
+      <table><tr>
+        <th><img id="horiImg" src="../images/embeddedprogramming/UDPI.png"></th>
+        <th><img id="horiImg1" src="../images/embeddedprogramming/susboard.PNG"></th>
+      </tr></table>
+      <h4 align="center">You need to connect your FTDI to your UDPI before connecting it to your Helloboard.</h4>
+      <img id="horiImg1" src="../images/embeddedprogramming/howtoconnect.jpg">
+      <h4 align="center">If you are following my board, This is how it is suppose to be connected.</h4>
+   </div>
+   <!--end-->
 
+
+    <!--Burning bootloader-->
+    <h2 id="buringboot" align="center">Burning bootloader</h2>
+    <div id="box">
+      <h4 align="center">The new board would require a new bootloader to be burned before we are able to program the board.
+        <br> You are require to burn a new bootloader if you change any setting on the board. The steps below shows the setting used on my board.
+        </h4>
+        <table><tr>
+          <th><img id="vertImg1" src="../images/embeddedprogramming/boardtype.png"></th>
+          <th><img id="horiImg" src="../images/embeddedprogramming/Programmer.png"></th>
+          <th><img id="horiImg" src="../images/embeddedprogramming/clockspeed.png"></th>
+    </tr></table>
+        <h4 align="center">Firstly, ensure the board you selected is AT412. The programmer is set to SLOW 56600 baud and the clock speed to 8Mhz Internal.<br>open the images above to have a clearer view.</h4>
+        <img id="vertImg" src="../images/embeddedprogramming/Burn bootloader.png">
+        <h4 align="center">Once all the setting is completed. select burn bootloader.</h4>
+    </div>
+    <!--end-->
+
+        <!--Programming the board-->
+        <h2 id="Programming" align="center">Programming the board</h2>
+        <div id="box">
+            <img id="horiImg1" src="../images/embeddedprogramming/suscode.PNG">
+            <h4 align="center">Following the <a href="../images/embeddedprogramming/impotantinfo.png">photo</a> above, you can now program the board like an arduino.<br>
+            Click <a href="../downloadfiles/embeddedprogramming/suscode.zip">here</a> to download the code I wrote!</h4>
+</div>
+        <!--end-->
+
+  <!--Final Working product-->
+   <h2 id="working" align="center">Working Board</h2>
+   <div id="box">
+      <img id="horiImg1" src="../images/embeddedprogramming/workingsusboard.gif">
+      <h4 align="center">This is my susboard in action</h4>
+   </div>
+   <!--end-->
+
+   <!--Issue Faced-->
+   <h2 id="issuesmuchsmh" align="center">Issue faced</h2>
+   <div id="box">
+      <img id="horiImg1" src="../images/embeddedprogramming/mistake.jpg">
+      <h4 align="center">Ensure your board is Dry and free of water before plugging it into a power source.<br> My board started <strike>Vaping</strike>Smoking soon after I plug it in because my wires were damaged and wet</h4>
+   </div>
+   <!--end-->
 
 
 
