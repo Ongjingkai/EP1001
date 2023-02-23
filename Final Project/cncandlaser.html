@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>˓˓(¦:ɝ[▓▓]</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li><a href="../contract.html">Contract</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">Skill Set</a>
+          <div class="dropdown-content">
+            <a href="../relearn/arduino.html">Arduino</a>
+            <a href="../relearn/designprocess.html">Design Process</a>
+            <a href="../relearn/fablabsafety.html">Fab Lab Safety</a>
+          </div>
+          </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">EP1001</a>
+              <div class="dropdown-content">
+                <a href="../EP1001/electronicproduction.html">Electronic Production</a>
+                <a href="../EP1001/electronicdesign.html">Electronic Design</a>
+                <a href="../EP1001/embeddedprogramming.html">Embedded Programming</a>
+                <a href="../EP1001/machining.html">2D Computer Controlled Machining</a>
+                <a href="../EP1001/moldingandcasting.html">Molding & Casting</a>
+                <a href="../EP1001/Interface&applicationsprogramming.html">Interface & Applications Programming</a> 
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Final Project</a>
+              <div class="dropdown-content">
+                <a href="projectproposal.html">Project Proposal</a>
+                <a href="designprocess.html">Design Process</a>
+                <a href="printed.html">3D Printed Stuff</a>
+                <a class="active" href="cncandlaser.html">C&C and Laser cut</a>
+
+              </div>
+            </li>
+          </li>
+          <li><a href="../vc.html">Visual Code Set-up</a></li>
+          <!--<li><a href="../tools&software.html">Tools Used</a></li>-->
+          <li><a href="../contactme.html">Contact me!</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--content-->
+
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>3D Printed Stuff</h1>
+            </td>
+            <td>
+              <img src="../images/logo/logo.png" style="width:60px;height:120px">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="container">
+      <div id="content">
+<h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
+
+        <!--sub navbar for the page to make it easier for me to look at any feature I made-->
+        <div id="navbar">
+        <a href="#wut" >What is this page about.</a>
+        <a href="#f1" >Robot arm holder Model</a>
+        <a href="#lib" >Files to download</a>
+        <a href="#code" >Coding</a>
+        <a href="#work" >Things to take note!</a>
+        <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
+        </div>
+  <!--End-->
+
+  <!--What is this page about-->
+  <h2 id="wut" align="center">What is this page about</h2>
+  <div id="box">
+      <h4 align="center">As the name suggest. This page is for the parts I C&Ced and lasercut for my final project at EP1001</h4>
+  </div>
+  <!--end-->
+
+  <!--First Program-->
+  <h2 id="f1" align="center">Robot arm holder Model</h2>
+  <div id="box">
+    <iframe id="model" src="https://ichat1898.autodesk360.com/shares/public/SH35dfcQT936092f0e43fe7f69d62dc9b63a?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      <h4 align="center">Using a ruler and caliper, I measured my arm and made the model out in fusion</h4>
+  </div>
+  <!--end-->
+
+  <!--Needed library-->
+  <h2 id="lib" align="center">Files to download</h2>
+  <div id="box">
+    <table>
+      <tr>
+    <th><img id="horiImg1" src="..\images\finalproject\cncandlasercut\cnc.jpg"></th>
+    <th><img id="horiImg" src="..\images\finalproject\cncandlasercut\lasercut.jpg"></th>
+  </tr>
+</table>
+      <h4 align="center">Please ensure to use a 20mm board for the cnc part as the pocket dept is <font style="color:blue">15mm</font>. The Laser cut parts are <font style="color:blue">3mm</font> thick<br> Click here to download the <a href="..\downloadfiles\project\cncandlasercut\Hand hold.zip" download>C&C</a> DXF file.<br>
+      Click here to download the <a href="..\downloadfiles\project\cncandlasercut\lasercut.zip" download>laser cut</a> DXF file</h4>
+  </div>
+  <!--end-->
+
+  <!--Final coding-->
+  <h2 id="code" align="center">Post Processing</h2>
+  <div id="box">
+    <table>
+      <tr>
+        <th><img id="horiImg1" src="../images/2Dmachining/sanding.jpg"></th>
+        <th><img id="horiImg" src="..\images\finalproject\cncandlasercut\sanded.jpg"></th>
+  </tr>
+</table>
+      <h4 align="center">Using the orbit sander, sand the surface of the holder and remove all sharp edges on the holder</h4>
+  </div>
+  <!--end-->
+
+  <!--Final coding-->
+  <h2 id="work" align="center">Things to take note!</h2>
+  <div id="box">
+    <img id="horiImg1" src="..\images\finalproject\cncandlasercut\gluetoarm.PNG">
+      <h4 align="center">As printing this may case the printing time to increase, It is much advisable to laser cut this out before super glueing this part to the arm.<br>This would allow future modifications to be made. For my presentation, I would only be proving that 2 fingers work for the sake of time.</h4>
+  </div>
+  <!--end-->
+
+
+
+</div>
+<!--End-->
+
+</div>
+<!--For Ze sticky Navbar-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+</script>
+<!--End-->
+
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+</html>
