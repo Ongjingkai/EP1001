@@ -1,0 +1,236 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>(=ↀωↀ=)</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li><a href="../contract.html">Contract</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">Skill Set</a>
+          <div class="dropdown-content">
+            <a href="../relearn/arduino.html">Arduino</a>
+            <a href="../relearn/designprocess.html">Design Process</a>
+            <a href="../relearn/fablabsafety.html">Fab Lab Safety</a>
+          </div>
+          </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">EP1001</a>
+              <div class="dropdown-content">
+                <a href="../EP1001/electronicproduction.html">Electronic Production</a>
+                <a href="../EP1001/electronicdesign.html">Electronic Design</a>
+                <a href="../EP1001/embeddedprogramming.html">Embedded Programming</a>
+                <a href="../EP1001/machining.html">2D Computer Controlled Machining</a>
+                <a href="../EP1001/moldingandcasting.html">Molding & Casting</a>
+                <a href="../EP1001/Interface&applicationsprogramming.html">Interface & Applications Programming</a> 
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Final Project</a>
+              <div class="dropdown-content">
+                <a class="active" href="projectproposal.html">Project Proposal</a>
+                <a href="designprocess.html">Design Process</a>
+                <a href="printed.html">3D Printed Stuff</a>
+
+              </div>
+            </li>
+          </li>
+          <li><a href="../vc.html">Visual Code Set-up</a></li>
+          <!--<li><a href="../tools&software.html">Tools Used</a></li>-->
+          <li><a href="../contactme.html">Contact me!</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--the gray part of the page-->
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>Project Proposal</h1>
+            </td>
+            <td>
+              <img src="../images/logo/logo.png" style="width:60px;height:120px">  <!--Logo for the page -->
+            </td>
+          </tr>
+        </table>
+    </div>
+<!--end-->
+
+    <div id="container">
+      <div id="content">
+
+  <!--End-->
+
+  <!--What is this page about-->
+  <h2 id="wut" align="center">What does it do?</h2>
+  <div id="box">
+      <h4 align="center">A robotic arm that can be controlled using a phone or any other external means. <br> Each fingers would be able to move up and down independently.</h4>
+  </div>
+  <!--end-->
+
+  <!--designing steps-->
+  <h2 id="steps" align="center">Features</h2>
+  <div id="box">
+    
+      <h4 align="center">Each finger would be able to move independently base on the command given.<br>
+        Robotic arm would be able to be controlled using a glove controller or your phone.
+      </h4>
+
+    </div>
+  <!--end-->
+
+  <!--What would be made-->
+  <h2 id="rel" align="center">What will be made?</h2>
+  <div id="box">
+    
+    <div id="boxcc">
+      <h4>
+      <table class="GeneratedTable">
+        <tbody>
+          <tr>
+            <td>CAD Design, Graphics</td>
+            <td>Everything in my project is designed on CAD</td>
+          </tr>
+          <tr>
+            <td>Laser cutting</td>
+            <td>Servo holder</td>
+          </tr>
+          <tr>
+            <td>3D printing</td>
+            <td>Casing for electronics</td>
+          </tr>
+          <tr>
+            <td>Micro-controller</td>
+            <td>Custom made ATTINY1614 board</td>
+          </tr>
+          <tr>
+            <td>Input devices</td>
+            <td>Phone, Robotic gloves</td>
+          </tr>
+          <tr>
+            <td>Output devices</td>
+            <td>Fingers(servo) and Serial output(On your phone).</td>
+          </tr>
+        </h4>
+        </tbody>
+      </table>
+    
+    </div>
+</tbody>
+  </table></div>
+  <!--end-->
+
+    <!--Bill of material-->
+    <h2 id="rel" align="center">What will be made?</h2>
+<div id="boxc">
+  <h2 id="rel" align="center">Robot's material</h2>
+    <table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>Item Description</th>
+      <th>Approx. Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>ATTINY1614</td>
+      <td>Provided by fablab</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><a href="https://shopee.sg/SG90-Micro-Servo-Motor-Mini-9G-Motor-arduino-180-deg-RC-helicptr-airplane-iot-project-9g-servo-sg90-i.45196895.16359632125?sp_atk=908fc4ef-e46b-4f49-86be-7e129a0d8a20&xptdk=908fc4ef-e46b-4f49-86be-7e129a0d8a20">Servo</a></td>
+      <td>SGD 6</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><a href="https://shopee.sg/Arduino-HC-05-HC05-Wireless-Bluetooth-Serial-Port-Module-i.189216177.4012179087?sp_atk=6f6d5188-a030-4527-a525-ba78eb44e620&xptdk=6f6d5188-a030-4527-a525-ba78eb44e620">HC-05</a></td>
+      <td>SGD $4.95</td>
+    </tr>
+    <tr>
+      <td>As much as I need</td>
+      <td>Pin Header</td>
+      <td>Provided by fablab</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="rel" align="center">Glove's material</h2>
+    <table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Quantity</th>
+      <th>Item Description</th>
+      <th>Approx. Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>ATTINY1614</td>
+      <td>Provided by fablab</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>SMD LED</td>
+      <td>Provided by fablab</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td><a href="https://shopee.sg/Arduino-HC-05-HC05-Wireless-Bluetooth-Serial-Port-Module-i.189216177.4012179087?sp_atk=6f6d5188-a030-4527-a525-ba78eb44e620&xptdk=6f6d5188-a030-4527-a525-ba78eb44e620">HC-05</a></td>
+      <td>SGD $4.95</td>
+    </tr>
+    <tr>
+      <td>As much as I need</td>
+      <td>Pin Header</td>
+      <td>Provided by fablab</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Flex sensor</td>
+      <td>Custom made at fablab</td>
+    </tr>
+  </tbody>
+  <tr>
+    <td>5</td>
+    <td>Flex sensor connector</td>
+    <td>Custom made at fablab</td>
+  </tr>
+</tbody>
+</table>
+    <!--end-->
+    </div>
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+</html>

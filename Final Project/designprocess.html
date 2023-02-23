@@ -1,12 +1,30 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>(｡• ̀д•́) 人 (•̀ω•́ )ﾊﾞ</title> <!--shit that appear on top of the page -->
+    <title>(=ↀωↀ=)</title>
     <link rel="stylesheet" type="text/css" href="../stylesheet.css">
   </head>
   <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+    <script>
+    var backtotop = document.getElementById("btt");
 
-<!--Navigation tab -->
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backtotop.style.display = "block";
+      } else {
+        backtotop.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+<!--Navigation tab below-->
 <div id="navigation">
   <nav>
     <ul>
@@ -35,7 +53,9 @@
             <li class="dropdown">
               <a href:"javascript:void(0)" class="dropbtn">Final Project</a>
               <div class="dropdown-content">
-                <a class="active" href="designprocess.html">Design Process</a>
+                <a class="active" href="projectproposal.html">Project Proposal</a>
+                <a href="designprocess.html">Design Process</a>
+                <a href="printed.html">3D Printed Stuff</a>
 
               </div>
             </li>
@@ -46,6 +66,8 @@
     </ul>
   </nav>
 </div>
+
+
 
 <!--the gray part of the page-->
     <div id="header">
@@ -64,16 +86,7 @@
 
     <div id="container">
       <div id="content">
-<h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
 
-        <!--Sub Nav Bar that follow u-->
-        <div id="navbar">
-          <a href="#wut" >What is this page about</a>
-          <a href="#steps" >Designing Steps</a>
-          <a href="#rel" >R-E-L</a>
-
-          <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
-          </div>
   <!--End-->
 
   <!--What is this page about-->
@@ -136,34 +149,12 @@
 
 </div>
 <!--End-->
-
-</div>
-
-<!--For the sticky Navbar-->
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-if (window.pageYOffset >= sticky) {
-  navbar.classList.add("sticky")
-} else {
-  navbar.classList.remove("sticky");
-}
-}
-</script>
-<!--End-->
-
+    <!--end-->
+    </div>
     <body>
-      <!--for the sticky footer below the page-->
     <footer>
       <div id="footer">
-      Copyrights &copy; Ong Jing Kai. <!--edit this to ur name if u want-->
+      Copyrights &copy; Ong Jing Kai.
       </div>
     </footer>
-    <!--end-->
 </html>
-
-<!--This Page is made by Jing Kai for the purpose of making my life easier, if you just copy and paste this page without reading the code. You would not notice this here-->
