@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>˓˓(¦:ɝ[▓▓]</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet.css">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="btt" title="Back to top">Back to Top</button>
+<!--Navigation tab below-->
+<div id="navigation">
+  <nav>
+    <ul>
+      <li><a href="../index.html">Main</a></li>
+      <li><a href="../aboutme.html">About Me</a></li>
+      <li><a href="../contract.html">Contract</a></li>
+      <li class="dropdown">
+          <a href:"javascript:void(0)" class="dropbtn">Skill Set</a>
+          <div class="dropdown-content">
+            <a href="../relearn/arduino.html">Arduino</a>
+            <a href="../relearn/designprocess.html">Design Process</a>
+            <a href="../relearn/fablabsafety.html">Fab Lab Safety</a>
+          </div>
+          </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">EP1001</a>
+              <div class="dropdown-content">
+                <a href="../EP1001/electronicproduction.html">Electronic Production</a>
+                <a href="../EP1001/electronicdesign.html">Electronic Design</a>
+                <a href="../EP1001/embeddedprogramming.html">Embedded Programming</a>
+                <a href="../EP1001/machining.html">2D Computer Controlled Machining</a>
+                <a href="../EP1001/moldingandcasting.html">Molding & Casting</a>
+                <a href="../EP1001/Interface&applicationsprogramming.html">Interface & Applications Programming</a> 
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href:"javascript:void(0)" class="dropbtn">Final Project</a>
+              <div class="dropdown-content">
+                <a href="projectproposal.html">Project Proposal</a>
+                <a href="designprocess.html">Design Process</a>
+                <a href="printed.html">3D Printed Stuff</a>
+                <a href="cncandlaser.html">C&C and Laser cut</a>
+                <a class="active" href="pcbandcode.html">PCD and Coding</a>
+                <a href="assembly.html">Assembly</a>
+                <a href="Showcase.html">Showcase</a>
+
+              </div>
+            </li>
+          </li>
+          <li><a href="../vc.html">Visual Code Set-up</a></li>
+          <!--<li><a href="../tools&software.html">Tools Used</a></li>-->
+          <li><a href="../contactme.html">Contact me!</a></li>
+    </ul>
+  </nav>
+</div>
+
+<!--content-->
+
+    <div id="header">
+      <table id="headerTable">
+        <tr>
+            <td>
+              <h1>PCB & coding</h1>
+            </td>
+            <td>
+              <img src="../images/logo/logo.png" style="width:60px;height:120px">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="container">
+      <div id="content">
+<h3 align="center">(^∇^*=) This page is rather long! Free free to select the option from the navigation bar below. (=*^∇^)</h3>
+
+        <!--sub navbar for the page to make it easier for me to look at any feature I made-->
+        <div id="navbar">
+        <a href="#wut" >What is this page about.</a>
+        <a href="#f1" >Designing my board</a>
+        <a href="#lib" >Files to download</a>
+        <a href="#code" >Test it out!</a>
+        <a href="#work" >Things to take note!</a>
+        <a href="#extra" >Extra help</a>
+        <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
+        </div>
+  <!--End-->
+
+  <!--What is this page about-->
+  <h2 id="wut" align="center">What is this page about</h2>
+  <div id="box">
+      <h4 align="center">As the name suggest. This page is for the pcb and Codes I made for my final project</h4>
+  </div>
+  <!--end-->
+
+  <!--First Program-->
+  <h2 id="f1" align="center">Designing my board</h2>
+  <div id="box"> 
+    <table>
+      <tr>
+    <th><img id="horiImg" src="..\images\finalproject\electronic\attiny1614.PNG"></th>
+    <th><img id="horiImg1" src="..\images\finalproject\PCBrobot\20230127_104723.jpg"></th>
+  </tr>
+</table>
+    
+      <h4 align="center">Referencing from <a href="https://github.com/SpenceKonde/megaTinyCore/blob/master/megaavr/extras/ATtiny_x14.md">ATTiny1614</a> and asking my teacher for advise. I designed my board for my robot hand.</h4>
+  </div>
+  <!--end-->
+
+  <!--Needed library-->
+  <h2 id="lib" align="center">Files to download</h2>
+  <div id="box">
+    <table>
+      <tr>
+    <th><img id="horiImg" src="..\images\finalproject\PCBrobot\pcb.PNG"></th>
+    <th><img id="horiImg" src="..\images\finalproject\electronic\code.PNG"></th>
+  </tr>
+</table>
+      <h4 align="center">This are the files for the <a href="..\downloadfiles\project\Robot pcb\Robot PCB.zip" download>robot PCB</a> and the <a href="..\downloadfiles\project\Robot pcb\Robot_Code.zip" download>code</a></h4>
+  </div>
+  <!--end-->
+
+  <!--Final coding-->
+  <h2 id="code" align="center">Test it out!</h2>
+  <div id="box">
+  
+    <th><img id="horiImg" src="../images\finalproject\electronic\arduinotest.gif"></th>
+      <h4 align="center">Remember to test if all of your component on an aduino before putting it in your board! you would only need to edit the code to make it compatible for your board.</h4>
+  </div>
+  <!--end-->
+
+  <!--Final coding-->
+  <h2 id="work" align="center">Things to take note!</h2>
+  <div id="box">
+    <table>
+      <tr>
+    <th><img id="horiImg" src="../images\finalproject\electronic\libraryissues.PNG"></th>
+    <th><img id="horiImg" src="..\images\finalproject\electronic\research.PNG"></th>
+  </tr>
+</table>
+    
+      <h4 align="center">As the normal library that is used for arduino does not work for ATtiny1614, I <a href="https://github.com/SpenceKonde/megaTinyCore">found</a> the appropriate library for my board.<br> Please use #include "Servo_megaTinyCore.h" instead of #include "Servo.h"</h4>
+  </div>
+  <!--end-->
+
+  <!--Final coding-->
+  <h2 id="extra" align="center">Extra help!</h2>
+  <div id="box">
+    <th><img id="horiImg1" src="..\images\finalproject\electronic\testcode.PNG"></th>
+      <h4 align="center">I wrote a code that allow you to test out your servo using serial commands! Click <a href="..\downloadfiles\project\Robot pcb\attiny_servo_test.zip" download>here</a> to download the code!</h4>
+  </div>
+  <!--end-->
+
+
+
+</div>
+<!--End-->
+
+</div>
+<!--For Ze sticky Navbar-->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+}
+}
+</script>
+<!--End-->
+
+    <body>
+    <footer>
+      <div id="footer">
+      Copyrights &copy; Ong Jing Kai.
+      </div>
+    </footer>
+</html>
