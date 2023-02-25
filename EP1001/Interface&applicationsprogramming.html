@@ -76,9 +76,11 @@
         <!--sub navbar for the page to make it easier for me to look at any feature I made-->
         <div id="navbar">
         <a href="#wut" >What is this page about.</a>
-        <a href="#f1" >First Program</a>
+        <a href="#downloading" >Downloading Processing</a>
         <a href="#lib" >Arduino Library</a>
+        <a href="#f1" >First Program</a>
         <a href="#code" >Coding</a>
+        <a href="#wire" >Wiring</a>
         <a href="#work" >Final Results</a>
         <a href="#navigation" style="color:blue; float:right;">Back to Top</a>
         </div>
@@ -87,19 +89,19 @@
   <!--What is this page about-->
   <h2 id="wut" align="center">What is this page about</h2>
   <div id="box">
-      <h4 align="center">This page would teach you to send data through a software serial. I would be using "<a href="https://processing.org/download">Processing</a>" for this example.</h4>
+      <h4 align="center">This page would teaches you how we can use 'Processing' and how we can interface it with our ATtiny412 board.<br> I would be using "<a href="https://processing.org/download">Processing</a>" for this example.</h4>
   </div>
   <!--end-->
 
-  <!--First Program-->
-  <h2 id="f1" align="center">First Program</h2>
-  <div id="box">
-      <img id="horiImg1" src="../images\Interfaceprogramming\First Program.PNG">
-      <h4 align="center">I am able to draw circles on process using simple and basic codes. This is 1 such example. Combing both "Processing" and "Arduino IDE", <br>I would be making a responsive box that would light up the LED when my mouse is over it</h4>
-  </div>
-  <!--end-->
+   <!--downloading processing-->
+   <h2 id="download" align="center">Downloading programming</h2>
+   <div id="box">
+       <img id="horiImg1" src="../images\Interfaceprogramming\processing.PNG">
+       <h4 align="center">Downloading processing is just a few click of your mouse away! Firstly, download <a href="https://processing.org/download">Processing</a> before clicking on 'processing.exe from the file downloaded.' </h4>
+   </div>
+   <!--end-->
 
-  <!--Needed library-->
+   <!--Needed library-->
   <h2 id="lib" align="center">Arduino Library</h2>
   <div id="box">
     <table>
@@ -108,7 +110,15 @@
     <th><img id="horiImg" src="../images\Interfaceprogramming\downloaded library.png"></th>
   </tr>
 </table>
-      <h4 align="center">Before writing out the code, process needs to have the arduino library installed. Install the one in the photo to the right.</h4>
+      <h4 align="center">Before writing out the code, process needs to have the arduino library installed.<br> Install the one highlighted in red in the photo to the right.</h4>
+  </div>
+  <!--end-->
+
+  <!--First Program-->
+  <h2 id="f1" align="center">First Program</h2>
+  <div id="box">
+      <img id="horiImg1" src="../images\Interfaceprogramming\First Program.PNG">
+      <h4 align="center">I am able to draw circles on process using simple and basic codes. This is 1 such example. Combing both "Processing" and "Arduino IDE", <br>I would be making a responsive box that would light up the LED when my mouse is over it</h4>
   </div>
   <!--end-->
 
@@ -125,11 +135,24 @@
   </div>
   <!--end-->
 
+    <!--Wiring-->
+    <h2 id="wire" align="center">Wiring</h2>
+    <div id="box">
+      <table>
+        <tr>
+          <th><img id="horiImg" src="../images\embeddedprogramming\howtoconnect.jpg"></th>
+          <th><img id="horiImg" src="../images\Interfaceprogramming\connection.jpg"></th>
+    </tr>
+  </table>
+        <h4 align="center">Unlike programming the board(photo on the left), You would only need to use the FTDI for your board to communicate with your computer.<br> Follow the connections(photo on the right) if you are using my ATtiny412 board.</h4>
+    </div>
+    <!--end-->
+
   <!--Final coding-->
   <h2 id="work" align="center">Final results</h2>
   <div id="box">
     <img id="horiImg1" src="../images\Interfaceprogramming\finished.gif">
-      <h4 align="center">If done correctly, Your final results should look like this!</h4>
+      <h4 align="center">If done correctly, Your LED should light up when your curser is over the square!</h4>
   </div>
   <!--end-->
 
